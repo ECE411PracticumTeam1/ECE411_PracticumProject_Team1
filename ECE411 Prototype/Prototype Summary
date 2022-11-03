@@ -1,0 +1,13 @@
+Macropad Prototype:
+
+6 switch matrix macropad is working, along with an OLED display and Rotary encoder. The matrix is currently programmed to function as number inputs 1 - 6 and the rotary encoder functions as a volume knob. Currently, the OLED display simply displays a stationary image of the QMK logo.
+
+The prototype runs on an atmega32u4 via an arduino pro micro. A separate atmega32u4 IC may be used in the final model, however a pro micro was used for the sake of simplicity in the breadboard prototype
+
+The matrix portion was built on a piece of perfboard. The rows are connected by diodes in series across the first pin of the switches. The columns are connected in series by wire to the second switch pin. Each row and column are wired to individual IO pins on the pro micro.
+
+The rotary encoder is connected to two separate IO pins and ground. 
+
+The OLED display connects through I2C and is powered by the pro micro’s input source.
+
+The pro micro is flashed with QMK firmware to drive the keyboard inputs.
