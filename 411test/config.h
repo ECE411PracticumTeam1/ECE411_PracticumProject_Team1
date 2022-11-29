@@ -18,3 +18,7 @@
 //#define NO_ACTION_LAYER
 //#define NO_ACTION_TAPPING
 //#define NO_ACTION_ONESHOT
+
+#define OLED_DISPLAY_128X64
+
+void change_tap(void);
