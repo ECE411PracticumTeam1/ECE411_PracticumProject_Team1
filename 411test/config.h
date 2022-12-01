@@ -18,7 +18,7 @@
 //#define NO_ACTION_LAYER
 //#define NO_ACTION_TAPPING
 //#define NO_ACTION_ONESHOT
-
-#define OLED_DISPLAY_128X64
-
+#define RGB_DI_PIN B6
+#define RGBLED_NUM 6
+#define RGBLIGHT_DEFAULT_HUE 180
 void change_tap(void);
