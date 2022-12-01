@@ -3,7 +3,7 @@
     "keyboard_name": "411test",
     "maintainer": "Yusanagi",
     "bootloader": "caterina",
-    "diode_direction": "COL2ROW",
+    "diode_direction": "ROW2COL",
     "features": {
         "bootmagic": true,
         "command": false,
@@ -13,8 +13,8 @@
         "nkro": true
     },
     "matrix_pins": {
-        "cols": ["B4", "E6", "D7"],
-        "rows": ["B5", "B6"]
+        "cols": ["F6", "F7", "B1"],
+        "rows": ["F5", "F4"]
     },
     "processor": "atmega32u4",
     "url": "",
